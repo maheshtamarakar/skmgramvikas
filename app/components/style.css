@@ -1,0 +1,28 @@
+
+
+a {
+    color: var(--text-color);
+  }
+
+.navbar {
+    background-color: var(--bg-color2) !important;
+}
+
+.nav-link:hover {
+    color:var(--bg-color) !important;
+}
+
+/* footer  */
+
+.footer-container {
+    background: var(--footer-bg);
+    color: var(--text-color2);
+}
+
+.footer-menu a {
+    color: var(--text-color2) !important;
+}
+
+.footer-content {
+    align-items: baseline;
+}

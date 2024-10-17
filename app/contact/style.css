@@ -1,0 +1,6 @@
+.contact-section {
+    padding: 50px 0;
+}
+.contact-form input, .contact-form textarea {
+    border-radius: 0; /* Remove rounded corners */
+}

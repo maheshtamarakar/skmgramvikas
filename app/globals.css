@@ -1,6 +1,12 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg-color: #00B074;
+  --bg-color2: #EFFDF5;
+  --footer-bg:#2B3940;
+  --text-color: #000;
+  --text-color2: #fff;
+  --text-color3: #00B074;
+  --text-color4: #959C90;
+  --icon-img-color-filter: brightness(0) saturate(100%) invert(42%) sepia(57%) saturate(2413%) hue-rotate(132deg) brightness(96%) contrast(101%);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,27 +22,66 @@ body {
   overflow-x: hidden;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 * {
-  box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Popins', sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.feature {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.cont-icon {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7492%) hue-rotate(296deg) brightness(107%) contrast(106%);
+}
+
+
+.custom-carousel-container {
+  height: 78vh;
+}
+
+.contributions-container {
+  background: var(--bg-color2);
+  color: var(--text-color);
+}
+
+.footer-container {
+  background: var(--footer-bg);
+  color: var(--text-color2);
+}
+
+.contribution-icon {
+  color: var(--text-color2);
+  background: var(--bg-color);
+  border-radius: 50%;
+  font-size: 4rem !important;
+  padding: 1rem;
+  width: 8rem;
+  height: 8rem;
+}
+
+.welcome-text {
+  text-align: justify;
+}
+
+.common-button {
+  background-color: var(--bg-color); /* Orange button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.form-group label {
+  font-weight: bold;
 }
