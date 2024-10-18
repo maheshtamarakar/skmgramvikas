@@ -29,17 +29,21 @@ const Footer = () => {
               <Link href="#" className="nav-link p-0 ">Home</Link>
             </li>
             <li className="nav-item mb-2">
-              <Link href="#" className="nav-link p-0 "
-                >Features</Link>
+            <Link className="nav-link p-0" aria-current="page" href="/about">About</Link>
             </li>
             <li className="nav-item mb-2">
-              <Link href="#" className="nav-link p-0 ">Pricing</Link>
+            <Link className="nav-link p-0" aria-current="page" href="/contribute"
+              >Contribute</Link>
             </li>
             <li className="nav-item mb-2">
-              <Link href="#" className="nav-link p-0 ">FAQs</Link>
+            <Link className="nav-link p-0" aria-current="page" href="/donate">Donate</Link>
             </li>
             <li className="nav-item mb-2">
-              <Link href="#" className="nav-link p-0 ">About</Link>
+            <Link className="nav-link p-0" aria-current="page" href="#">Event</Link>
+            </li>
+            <li className="nav-item mb-2">
+            <Link className="nav-link p-0" aria-current="page" href="/contact"
+              >Contact</Link>
             </li>
           </ul>
         </div>

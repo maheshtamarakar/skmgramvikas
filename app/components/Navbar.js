@@ -34,11 +34,11 @@ const Navbar = () => {
               >Contribute</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link active" aria-current="page" href="#">Donate</Link>
+            <Link className="nav-link active" aria-current="page" href="/donate">Donate</Link>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link className="nav-link active" aria-current="page" href="#">Blog</Link>
-          </li>
+          </li> */}
           <li className="nav-item">
             <Link className="nav-link active" aria-current="page" href="#">Event</Link>
           </li>

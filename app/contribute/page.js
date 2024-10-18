@@ -5,15 +5,15 @@ const page = () => {
   return (
     <>
     {/* <!-- contribute  --> */}
-<section class="volunteer-section">
-    <div class="container">
-        <div class="row">
-            <h1 class="text-center">Volunteer</h1>
-            <div class="col-md-6">
-                <p class="text-justify">At Swarajya Foundation, we believe in the power of volunteerism to create positive change and build stronger communities. Volunteering is a meaningful way to contribute your time, skills, and passion to support our mission. Whether you&apos;re an individual looking to make a difference or a group seeking opportunities for team building and community engagement, we welcome volunteers of all backgrounds and abilities.</p>
+<section className="volunteer-section">
+    <div className="container">
+        <div className="row">
+            <h1 className="text-center">Volunteer</h1>
+            <div className="col-md-6">
+                <p className="text-justify">At Swarajya Foundation, we believe in the power of volunteerism to create positive change and build stronger communities. Volunteering is a meaningful way to contribute your time, skills, and passion to support our mission. Whether you&apos;re an individual looking to make a difference or a group seeking opportunities for team building and community engagement, we welcome volunteers of all backgrounds and abilities.</p>
 
                 <h2>Why Volunteer with Swarajya Foundation?</h2>
-                <ul class="text-justify">
+                <ul className="text-justify">
                     <li>
                         <strong>Make a Difference:</strong> As a volunteer with Swarajya Foundation, you&apos;ll directly impact the lives of those we serve. Whether you&apos;re volunteering at events, assisting with programs, or lending your expertise to special projects, your efforts play a crucial role in advancing our mission and creating positive change.
                     </li>
@@ -25,34 +25,34 @@ const page = () => {
                     </li>
                 </ul>
             </div>
-            <div class="col-md-6">
+            <div className="col-md-6">
                 <h2>Fill the below form.</h2>
                 <form>
-                    <div class="form-group mb-3">
+                    <div className="form-group mb-3">
                         <label for="name">Name:</label>
-                        <input type="text" class="form-control" id="name" placeholder="Enter your name"/>
+                        <input type="text" className="form-control" id="name" placeholder="Enter your name"/>
                     </div>
-                    <div class="form-group mb-3">
+                    <div className="form-group mb-3">
                         <label for="email">Email:</label>
-                        <input type="email" class="form-control" id="email" placeholder="Enter your email"/>
+                        <input type="email" className="form-control" id="email" placeholder="Enter your email"/>
                     </div>
-                    <div class="form-group mb-3">
+                    <div className="form-group mb-3">
                         <label for="date">Date:</label>
-                        <input type="date" class="form-control" id="date"/>
+                        <input type="date" className="form-control" id="date"/>
                     </div>
-                    <button type="submit" class="common-button">Book Now</button>
+                    <button type="submit" className="common-button">Book Now</button>
                 </form>
             </div>
         </div>
     </div>
 </section>
 
-<div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <img src="https://images.pexels.com/photos/3957054/pexels-photo-3957054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Donation" class="img-fluid"/>
+<div className="container">
+    <div className="row">
+      <div className="col-md-6">
+        <img src="https://images.pexels.com/photos/3957054/pexels-photo-3957054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Donation" className="img-fluid"/>
       </div>
-      <div class="col-md-6">
+      <div className="col-md-6">
         <h1>Individual</h1>
         <p>At Swarajya Foundation, we believe in the power of collective action to drive positive change. Every contribution, no matter how big or small, has the potential to transform lives and communities. By donating to our cause, you become a vital part of our mission.</p>
         <h2>Why Donate to us?</h2>
