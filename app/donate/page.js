@@ -44,11 +44,11 @@ const donate = () => {
                 <div className="why-donate">
                     <div className="h2">Why Donate?</div>
                     <p>Meet Urgent Needs: Your donation can provide immediate relief to individuals and families facing hunger, homelessness, or medical emergencies. By contributing to organizations that provide essential services and support, you can help ensure that no one is left behind in times of crisis.</p>
-                    <p>Empower Change: Donating isn't just about meeting immediate needs; it's also about creating lasting change. By supporting initiatives that address the root causes of poverty and inequality, you can empower individuals and communities to build better futures for themselves and future generations.</p>
+                    <p>Empower Change: Donating isn&apos;t just about meeting immediate needs; it&apos;s also about creating lasting change. By supporting initiatives that address the root causes of poverty and inequality, you can empower individuals and communities to build better futures for themselves and future generations.</p>
                     <p>Spread Hope: Your generosity sends a powerful message of hope to those facing adversity. By showing solidarity and compassion, you can uplift spirits, restore dignity, and inspire others to join in the effort to create a more just and equitable world.</p>
                 </div>
 
-                <i className='text-center d-block'>Join us in extending a helping hand to those in need. Together, we can create a world where everyone has the opportunity to thrive and lead fulfilling lives. Let's donate to make a difference today.</i>
+                <i className='text-center d-block'>Join us in extending a helping hand to those in need. Together, we can create a world where everyone has the opportunity to thrive and lead fulfilling lives. Let&apos;s donate to make a difference today.</i>
             </div>
         </>
 
