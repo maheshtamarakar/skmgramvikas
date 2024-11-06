@@ -4,7 +4,7 @@ import "./style.css";
 import Image from "next/image";
 import { useMyContext } from "../context/MyContext";
 
-const donate = () => {
+const Donate = () => {
   const isMarathi = useMyContext();
   if (isMarathi) {
     return (
@@ -171,4 +171,4 @@ const donate = () => {
   }
 };
 
-export default donate;
+export default Donate;

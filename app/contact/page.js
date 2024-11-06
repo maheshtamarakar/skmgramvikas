@@ -3,7 +3,7 @@ import React from "react";
 import "./style.css";
 import { useMyContext } from "../context/MyContext";
 
-const page = () => {
+const Contact = () => {
   const isMarathi = useMyContext();
   if (isMarathi) {
     return (
@@ -111,4 +111,4 @@ const page = () => {
   }
 };
 
-export default page;
+export default Contact;
