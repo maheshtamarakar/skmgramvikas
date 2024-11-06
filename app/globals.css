@@ -7,6 +7,7 @@
   --text-color3: #00B074;
   --text-color4: #959C90;
   --icon-img-color-filter: brightness(0) saturate(100%) invert(42%) sepia(57%) saturate(2413%) hue-rotate(132deg) brightness(96%) contrast(101%);
+  --background-cart: beige;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -47,11 +48,12 @@ body {
 
 .carousel-item {
   height: 100%;
+  background: var(--footer-bg);
 }
 
 .carousel-item img {
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .contributions-container {
@@ -93,4 +95,8 @@ body {
 
 .form-group label {
   font-weight: bold;
+}
+
+.active {
+  color: var(--bg-color);
 }

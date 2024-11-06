@@ -7,7 +7,7 @@
     align-items: center;
     font-size: 2rem;
     font-weight: 700;
-    background: url(/imgs/slide1.jpeg);
+    background-color: var(--footer-bg);
     background-position: center;
     color: #fff;
 }
@@ -47,4 +47,10 @@
 .trustee-title {
     margin-bottom: 30px;
     color: var(--text-color3);
+}
+
+.custom-list {
+    list-style-type: decimal;    
+    padding: 0 10%;
+
 }

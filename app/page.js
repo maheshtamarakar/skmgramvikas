@@ -1,10 +1,9 @@
 "use client";
-import styles from "./page.module.css";
 import { useEffect } from 'react';
-import Image from "next/image";
+import { useMyContext } from './context/MyContext'
 
-export default function Home() {
-  
+export default function Home() {  
+  const isMarathi = useMyContext();
   useEffect(() => {
     // Dynamically import Bootstrap JS (only on the client-side)
     import('bootstrap/dist/js/bootstrap.bundle.min.js');
@@ -38,19 +37,37 @@ export default function Home() {
           data-bs-slide-to="2"
           aria-label="Slide 3"
         ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="4"
+          aria-label="Slide 5"
+        ></button>
       </div>
       <div
         className="carousel-inner custom-carousel-container"
         data-interval="1000"
       >
         <div className="carousel-item active">
-          <img src="/imgs/slide1.jpeg" className="d-block w-100" alt="..." />
+          <img src="/imgs/home1.jpg" className="d-block w-100" alt="..." />
+        </div>
+        <div className="carousel-item">
+          <img src="/imgs/home2.jpg" className="d-block w-100" alt="..." />
+        </div>
+        <div className="carousel-item">
+          <img src="/imgs/home3.jpg" className="d-block w-100" alt="..." />
+        </div>
+        <div className="carousel-item">
+          <img src="/imgs/home4.png" className="d-block w-100" alt="..." />
         </div>
         <div className="carousel-item">
           <img src="/imgs/slide2.jpeg" className="d-block w-100" alt="..." />
-        </div>
-        <div className="carousel-item">
-          <img src="/imgs/slide3.jpeg" className="d-block w-100" alt="..." />
         </div>
       </div>
       <button
@@ -73,6 +90,20 @@ export default function Home() {
       </button>
     </div>
     {/* welcome */}
+    {
+      isMarathi && 
+      <section className="about-section my-5 w-75 mx-auto ">
+        <h1 className="my-3 text-center">एस के एम ग्रामविकास मध्ये आपले स्वागत आहे</h1>
+        <p className="welcome-text">
+        स्कॅमग्राम विकासाच्या स्थापनेमागील आशावाद हा आहे की... मातृभूमीची सेवा! मायदेशातील गरीब शेतकरी बंधू-भगिनींच्या जीवनात आनंद आणण्यासाठी, त्यांच्या हक्काच्या मूलभूत गरजांसाठी झटण्यासाठी आणि निस्वार्थी कार्यातून त्यांना मिळवून देण्यासाठी एक संघटना! 
+        </p>
+  
+        <p>
+        गरिबीचा त्यांच्या शिक्षणात अडथळा येऊ नये, त्यांना त्यांचे योग्य शिक्षण मिळावे यासाठी विद्यार्थ्यांना आर्थिक मदत आणि मार्गदर्शनाचे स्रोत निर्माण करून ढालप्रमाणे उभी राहणारी संस्था! आर्थिक वंचिततेमुळे निराधार, अपंग, हताश वृद्ध महिला/पुरुषांसाठी आधार बनण्याच्या उद्देशाने संघटित झालेली संस्था! विभागीय वैद्यकीय समस्या. स्वत:च्या वैद्यकीय सुविधांच्या अभावामुळे आणि नियोजनामुळे लोकांना होणारा त्रास आणि जीवघेण्या घटनांवर काही पर्याय शोधण्यासाठी एकसंघ संघटना!
+        </p>
+      </section>
+    }
+    {!isMarathi && 
     <section className="about-section my-5 w-75 mx-auto ">
       <h1 className="my-3 text-center">Welcome to Skmgram Vikas</h1>
       <p className="welcome-text">
@@ -93,9 +124,9 @@ export default function Home() {
         find some alternatives to the sufferings of people and life-threatening
         events due to lack and planning of their own medical facilities!
       </p>
-    </section>
+    </section>}
     {/* contributions */}
-    <section
+    {/* <section
       className="contributions-container"
     >
       <div className="container px-4 py-5" id="featured-3">
@@ -157,10 +188,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
 
     {/* donation */}
-    <div className="container col-xxl-8 px-4 py-5">
+    {/* <div className="container col-xxl-8 px-4 py-5">
       <div className="row justify-content-center align-items-center g-5 py-5">
         <div className="col-lg-6">
           <h1 className="display-6 fw-bold lh-1 mb-3">
@@ -186,7 +217,7 @@ export default function Home() {
           />
         </div>
       </div>
-    </div>
+    </div> */}
     </>
 
     
