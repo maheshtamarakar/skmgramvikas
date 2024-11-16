@@ -12,7 +12,10 @@ import {MyProvider} from './context/MyContext'
 
 export default function RootLayout({ children }) {
   const [dataFromChild, setDataFromChild] = useState('');
-
+  useEffect(() => {
+    // Dynamically import Bootstrap JS (only on the client-side)
+    import("bootstrap/dist/js/bootstrap.bundle.min.js");
+  }, []);
   const handleDataFromChild = (data) => {
     setDataFromChild(data);
     console.log('dataFromChild', dataFromChild);
