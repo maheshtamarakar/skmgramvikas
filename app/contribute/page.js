@@ -1,11 +1,13 @@
 import React from 'react'
 import './style.css'
+import ComingSoon from '../components/ComingSoon';
 
 const page = () => {
   return (
     <>
+<ComingSoon />
     {/* <!-- contribute  --> */}
-<section className="volunteer-section">
+{/* <section className="volunteer-section">
     <div className="container">
         <div className="row">
             <h1 className="text-center">Volunteer</h1>
@@ -61,7 +63,8 @@ const page = () => {
         <p><strong>Tax Benefits:</strong> Your donation to us may be tax-deductible, allowing you to maximize the impact of your contribution while also benefiting from potential tax advantages. Consult with your financial advisor for more information on the tax benefits of charitable giving.</p>
       </div>
     </div>
-  </div></>
+  </div> */}
+  </>
   )
 }
 

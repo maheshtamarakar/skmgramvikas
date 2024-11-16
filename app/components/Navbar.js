@@ -42,32 +42,32 @@ const Navbar = ({ sendData }) => {
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" href="/events">Event</Link>
             </li>
-            {/* <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" href="#">Notice</Link>
-            </li> */}
-            {/* <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" href="#">Certificate</Link>
-            </li> */}
-            {/* <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" href="#">News</Link>
-            </li> */}
+            <li className="nav-item">
+              <Link className="nav-link active" aria-current="page" href="/notice">Notice</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link active" aria-current="page" href="/certificate">Certificate</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link active" aria-current="page" href="/news">News</Link>
+            </li>
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" href="/donate">Donate</Link>
             </li>
-            {/* <li className="nav-item">
+            <li className="nav-item">
               <Link className="nav-link active" aria-current="page" href="/contribute"
                 >Contribute</Link>
-            </li> */}
+            </li>
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" href="/contact"
                 >Contact</Link>
             </li>
-            {/* <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" href="#">Enquiry</Link>
+            <li className="nav-item">
+              <Link className="nav-link active" aria-current="page" href="/enquiry">Enquiry</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" href="#">Compliant</Link>
-            </li> */}
+              <Link className="nav-link active" aria-current="page" href="/compliant">Compliant</Link>
+            </li>
           </ul>
           <div className="d-flex">
             <div className="form-check me-2">
@@ -129,32 +129,32 @@ const Navbar = ({ sendData }) => {
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" href="/events">कार्यक्रम</Link>
             </li>
-            {/* <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" href="#">Notice</Link>
-            </li> */}
-            {/* <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" href="#">Certificate</Link>
-            </li> */}
-            {/* <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" href="#">News</Link>
-            </li> */}
+            <li className="nav-item">
+              <Link className="nav-link active" aria-current="page" href="#">जाडिरात</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link active" aria-current="page" href="#">प्रमाणपत्र</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link active" aria-current="page" href="#">बातम्या</Link>
+            </li>
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" href="/donate">देणगी</Link>
             </li>
-            {/* <li className="nav-item">
+            <li className="nav-item">
               <Link className="nav-link active" aria-current="page" href="/contribute"
-                >Contribute</Link>
-            </li> */}
+                >योगदानकता</Link>
+            </li>
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" href="/contact"
                 >संपर्क</Link>
             </li>
-            {/* <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" href="#">Enquiry</Link>
+            <li className="nav-item">
+              <Link className="nav-link active" aria-current="page" href="#">चौकशी</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" href="#">Compliant</Link>
-            </li> */}
+              <Link className="nav-link active" aria-current="page" href="#">तक्रार</Link>
+            </li>
           </ul>
           <div className="d-flex">
             <div className="form-check me-2">

@@ -1,29 +1,108 @@
-
-
 a {
-    color: var(--text-color);
-  }
+  color: var(--text-color);
+}
 
 .navbar {
-    background-color: var(--bg-color2) !important;    
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  background-color: var(--bg-color2) !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .nav-link:hover {
-    color:var(--bg-color) !important;
+  color: var(--bg-color) !important;
 }
 
 /* footer  */
 
 .footer-container {
-    background: var(--footer-bg);
-    color: var(--text-color2);
+  background: var(--footer-bg);
+  color: var(--text-color2);
 }
 
 .footer-menu a {
-    color: var(--text-color2) !important;
+  color: var(--text-color2) !important;
 }
 
 .footer-content {
-    align-items: baseline;
+  align-items: baseline;
+}
+
+/* styles/PDFList.css */
+.pdf-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.pdf-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.pdf-name {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.download-button {
+  text-decoration: none;
+  background-color: #0070f3;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.download-button:hover {
+  background-color: #005bb5;
+}
+
+.coming-soon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  /* background: linear-gradient(135deg, var(--bg-color), var(--text-color3)); */
+  /* color: #ffffff; */
+  padding: 20px;
+}
+
+.coming-soon h1 {
+  font-size: 3rem;
+  margin: 20px 0;
+}
+
+.coming-soon p {
+  font-size: 1.25rem;
+  max-width: 600px;
+  margin-bottom: 40px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .coming-soon h1 {
+    font-size: 2.5rem;
+  }
+
+  .coming-soon p {
+    font-size: 1rem;
+  }
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .pdf-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
 }

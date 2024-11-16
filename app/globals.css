@@ -100,3 +100,38 @@ body {
 .active {
   color: var(--bg-color);
 }
+
+/* .table {
+  border: 1px solid #79c0d5;
+} */
+
+.table th {
+  background-color: #5ba3c7 !important;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.table tbody tr:nth-child(even) td {
+  background-color: #ffffff;
+}
+
+.table tbody tr:nth-child(odd) td {
+  background-color: #d2ebf0;
+}
+
+.table td, .table th {
+  text-align: center;
+}
+
+/* .table-head-1 th {
+  background-color: #4bacc6;
+}
+
+.table-body-1 tr:nth-child(odd) {
+  background-color: #d2ebf0; 
+}
+
+.table-body-1 tr:nth-child(even) {
+  background-color: #ffffff; 
+} */
