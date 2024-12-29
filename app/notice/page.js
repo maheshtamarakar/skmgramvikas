@@ -9,7 +9,7 @@ export default function Home() {
   const isMarathi = useMyContext();
 
   const pdfFiles = [
-    { name: 'Shri Kedareshwar Mahakali Gramvikas Sanstha Form-1', url: '/pdfs/skmgsf-1.pdf' },
+    { name: 'Joining Form', url: '/pdfs/skmgsf-1.pdf' },
     // { name: 'Sample PDF 2', url: '/pdfs/sample2.pdf' },
     // { name: 'Sample PDF 3', url: '/pdfs/sample3.pdf' },
   ];

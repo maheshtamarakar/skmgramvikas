@@ -13,7 +13,7 @@ const About = () => {
           श्री केदारेश्वर महाकाली दाभे मोहन ग्राम विकास
         </div>
         {/* <!-- donation  --> */}
-        <div className="container col-xxl-8 px-4 py-5">
+        <div className="container col-xxl-8 px-4 py-5 text-justify">
           <div className="row justify-content-center align-items-center g-5 py-5">
             <div className="col-lg-6">
               <h1 className="display-6 fw-bold lh-1 mb-3">
@@ -39,7 +39,7 @@ const About = () => {
           </div>
         </div>
 
-        <ul className="custom-list">
+        <ul className="custom-list text-justify">
           <li>
             सामाजिक, शैक्षणिक, सांस्कृतिक, कला क्रिडा क्षेत्रात गौरवास्पद
             कामगिरी केल्याबद्दल संबंधीत कर्तबगार नागरीकांचा सत्कार करणे.
@@ -282,7 +282,7 @@ const About = () => {
           About Shree Kedarshwar Mahakali Dabhe Mohan Gramvikas Sanstha
         </div>
         {/* <!-- donation  --> */}
-        <div className="container col-xxl-8 px-4 py-5">
+        <div className="container col-xxl-8 px-4 py-5 text-justify">
           <div className="row justify-content-center align-items-center g-5 py-5">
             <div className="col-lg-6">
               <h1 className="display-6 fw-bold lh-1 mb-3">
@@ -308,7 +308,7 @@ const About = () => {
           </div>
         </div>
 
-        <ul className="custom-list">
+        <ul className="custom-list text-justify">
           <li>
             To felicitate the meritorious citizens concerned for their
             meritorious achievements in social, educational, cultural, arts and

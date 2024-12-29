@@ -10,3 +10,7 @@
     background-color: var(--footer-bg);
     color: #fff;
 }
+
+.text-justify {
+    text-align: justify;
+}

@@ -87,6 +87,10 @@ a {
   margin-bottom: 40px;
 }
 
+.form-check-input {
+  cursor: pointer;
+}
+
 /* Responsive styling */
 @media (max-width: 768px) {
   .coming-soon h1 {

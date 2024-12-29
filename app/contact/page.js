@@ -26,7 +26,7 @@ const Contact = () => {
                 </form> */}
             </div>
             <div>
-              <p>
+              <p className="text-justify">
               आम्हाला तुमच्याकडून ऐकायला आवडेल! तुम्हाला प्रश्न असतील, अभिप्राय असतील किंवा भागीदारीच्या संधी एक्सप्लोर करायच्या असतील, संपर्क करण्यास अजिबात संकोच करू नका. आमची समर्पित टीम तुम्हाला मदत करण्यासाठी येथे आहे. कृपया ईमेलद्वारे किंवा फॉर्म भरून मोकळ्या मनाने आमच्याशी संपर्क साधा. आम्ही तुमच्याशी कनेक्ट होण्यासाठी आणि सकारात्मक प्रभाव पाडण्यासाठी एकत्र काम करण्यास उत्सुक आहोत.
               </p>
               <address>
@@ -74,7 +74,7 @@ const Contact = () => {
                 </form> */}
             </div>
             <div>
-              <p>
+              <p className="text-justify">
                 We&apos;d love to hear from you! Whether you have questions,
                 feedback, or would like to explore partnership opportunities,
                 don&apos;t hesitate to reach out. Our dedicated team is here to

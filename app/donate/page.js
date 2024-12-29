@@ -14,7 +14,7 @@ const Donate = () => {
         <div className="container col-xxl-11 px-4 py-5">
           <div className="row justify-content-center align-items-center g-5 py-5">
             <div className="col-lg-7 ">
-              <p className="lead">
+              <p className="lead text-justify">
               दररोज, जगभरातील लाखो लोक त्यांच्या मूलभूत गरजा पूर्ण करण्यासाठी संघर्ष करतात. अन्न आणि निवारा पासून ते आरोग्यसेवा आणि शिक्षणापर्यंत, अनेक व्यक्ती आणि कुटुंबांना भयंकर आव्हानांना सामोरे जावे लागते जे त्यांच्या निरोगी, परिपूर्ण जीवन जगण्याच्या क्षमतेत अडथळा आणतात. तथापि, एकत्र येऊन आणि मदतीचा हात देऊन, आपण गरजूंच्या जीवनात खरा बदल घडवू शकतो.
               </p>
             </div>
@@ -59,7 +59,7 @@ const Donate = () => {
               </p>
             </div>
           </div>
-          <div className="why-donate">
+          <div className="why-donate text-justify">
             <div className="h2">देणगी का?</div>
             <p>
             तातडीच्या गरजा पूर्ण करा: तुमची देणगी भूक, बेघर किंवा वैद्यकीय आणीबाणीचा सामना करणाऱ्या व्यक्ती आणि कुटुंबांना तात्काळ आराम देऊ शकते. अत्यावश्यक सेवा आणि सहाय्य प्रदान करणाऱ्या संस्थांना योगदान देऊन, तुम्ही संकटाच्या वेळी कोणीही मागे राहणार नाही याची खात्री करण्यात मदत करू शकता. 
@@ -86,7 +86,7 @@ const Donate = () => {
         <div className="container col-xxl-11 px-4 py-5">
           <div className="row justify-content-center align-items-center g-5 py-5">
             <div className="col-lg-7 ">
-              <p className="lead">
+              <p className="lead text-justify">
                 Every day, millions of people around the world struggle to meet
                 their basic needs. From food and shelter to healthcare and
                 education, many individuals and families face formidable
@@ -136,7 +136,7 @@ const Donate = () => {
               </p>
             </div>
           </div>
-          <div className="why-donate">
+          <div className="why-donate text-justify">
             <div className="h2">Why Donate?</div>
             <p>
               Meet Urgent Needs: Your donation can provide immediate relief to

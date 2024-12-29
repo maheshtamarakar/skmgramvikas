@@ -4,3 +4,7 @@
 .contact-form input, .contact-form textarea {
     border-radius: 0; /* Remove rounded corners */
 }
+
+.text-justify {
+    text-align: justify;
+}

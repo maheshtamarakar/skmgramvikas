@@ -130,7 +130,7 @@ const Navbar = ({ sendData }) => {
               <Link className="nav-link active" aria-current="page" href="/events">कार्यक्रम</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" href="/notice">जाडिरात</Link>
+              <Link className="nav-link active" aria-current="page" href="/notice">जाहिरात</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" href="/certificate">प्रमाणपत्र</Link>

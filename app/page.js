@@ -1,5 +1,4 @@
 "use client";
-import { useEffect } from "react";
 import { useMyContext } from "./context/MyContext";
 import "./page.module.css";
 
@@ -102,25 +101,56 @@ export default function Home() {
             </h1>
             <p className="welcome-text">
               श्री केदारेश्वर महाकाली दाभे मोहन ग्राम विकासाच्या स्थापनेमागील
-              आशािाद हा आहे की.... मातृभूमीची सेिा! मायदेशातील गरीब शेतकरी
-              बंधू-भवगनींच्या जीिनात आनंद आणण्यासाठी, तयांच्या हक्काच्या मूलभूत
-              गरजांसाठी झटण्यासाठी आवण वनस्िाथी कायातून तयांना वमळिून देण्यासाठी
-              एक संघटना!
+              आशावाद हा आहे की.... मातृभूमीची सेवा! मायदेशातील गरीब शेतकरी
+              बंधू-भगिनींच्या जीवनात आनंद आणण्यासाठी, त्यांच्या हक्काच्या मूलभूत
+              गरजांसाठी झटण्यासाठी आणि निस्वार्थी कार्यातून त्यांना मिळवून
+              देण्यासाठी एक संघटना!
             </p>
 
-            <p>
-              गवरबीचा तयांच्या वशक्षणात अडथळा येऊ नये, तयांना तयांचे योग्य
-              वशक्षण वमळािे यासाठी विद्यार्थ्यांना आर्थथक मदत आवण मागगदशगनाचे
-              स्रोत वनमाण करून ढालप्रमाणे उभी राहणारी संस्था! आर्थथक िंवचततेमुळे
-              वनराधार, अपंग, हताश िृद्ध मवहला/पुरुषांसाठी आधार बनण्याच्या
-              उद्देशाने संघवटत झालेली संस्था! विभागीय िैद्यकीय समस्या स्ित:च्या
-              िैद्यकीय सुविधांच्या अभािामुळे आवण वनयोजनामुळे लोकांना होणारा
-              त्रास आवण जीिघेण्या घटनांिर काही पयाय शोधण्यासाठी एकसंघ संघटना!
+            <p className="welcome-text">
+              गरिबीचा त्यांच्या शिक्षणात अडथळा येऊ नये, त्यांना त्यांचे योग्य
+              शिक्षण मिळावे यासाठी विद्यार्थ्यांना आर्थिक मदत आणि मार्गदर्शनाचे
+              स्रोत निर्माण करून ढालप्रमाणे उभी राहणारी संस्था! आर्थिक
+              वंचिततेमुळे निराधार, अपंग, हताश वृद्ध महिला/पुरुषांसाठी आधार
+              बनण्याच्या उद्देशाने संघटित झालेली संस्था! विभागीय वैद्यकीय समस्या
+              स्वत:च्या वैद्यकीय सुविधांच्या अभावामुळे आणि नियोजनामुळे लोकांना
+              होणारा त्रास आणि जीवघेण्या घटनांवर काही पर्याय शोधण्यासाठी एकसंघ
+              संघटना!
             </p>
           </div>
           <div className="container my-5">
             <div className="table-responsive-container">
               <h2 className="text-center">गावाबद्दलची माहिती</h2>
+              <table
+                style={{ border: "3px solid #79c0d5" }}
+                className="table table-bordered"
+              >
+                {/* <thead className="table-head-1">
+                  <tr>
+                    <th>येथून ते येथपर्यंत</th>
+                    <th>किलोमीटर</th>
+                    <th>वेळ</th>
+                  </tr>
+                </thead> */}
+                <tbody className="table-body-1">
+                  <tr>
+                    <td>राजेश बाळू जाधव</td>
+                    <td>सरपंच</td>
+                  </tr>
+                  <tr>
+                    <td>सुरेश देवजी चव्हाण</td>
+                    <td>उप सरपंच</td>
+                  </tr>
+                  <tr>
+                    <td>प्रियांका जगदीश शिंदे</td>
+                    <td>पो. पाटील</td>
+                  </tr>
+                  <tr>
+                    <td>जनार्दन देवजी चव्हाण</td>
+                    <td>शिपाई</td>
+                  </tr>
+                </tbody>
+              </table>
               <table
                 style={{ border: "3px solid #79c0d5" }}
                 className="table table-bordered"
@@ -183,44 +213,44 @@ export default function Home() {
                     <td>५ तास १२ मिनिटे</td>
                   </tr>
                   <tr>
-                  <td>मुंबई ते दाभे मोहन (महाड मार्ग) (NH ६६)</td>
+                    <td>मुंबई ते दाभे मोहन (महाड मार्ग) (NH ६६)</td>
                     <td>२३४.० कि.मी.</td>
                     <td>५ तास ३५ मिनिटे</td>
                   </tr>
                   <tr>
-                  <td>ठाणे ते दाभे मोहन (महाड मार्ग) (NH ६६)</td>
-                  <td>२३१.० कि.मी.</td>
+                    <td>ठाणे ते दाभे मोहन (महाड मार्ग) (NH ६६)</td>
+                    <td>२३१.० कि.मी.</td>
                     <td>६ तास ४४ मिनिटे</td>
                   </tr>
                   <tr>
-                  <td>मुंबई ते दाभे मोहन (वाई मार्ग) (NH ४८)</td>
-                  <td>२९७.०कि.मी.</td>
-                  <td>६ तास ३२ मिनिटे</td>
+                    <td>मुंबई ते दाभे मोहन (वाई मार्ग) (NH ४८)</td>
+                    <td>२९७.०कि.मी.</td>
+                    <td>६ तास ३२ मिनिटे</td>
                   </tr>
                   <tr>
-                  <td>प्रतापगड ते महाबळेश्वर (SH७२)</td>
-                  <td>२o.७ कि.मी.</td>
-                  <td>४४ मिनिटे</td>
+                    <td>प्रतापगड ते महाबळेश्वर (SH७२)</td>
+                    <td>२o.७ कि.मी.</td>
+                    <td>४४ मिनिटे</td>
                   </tr>
                   <tr>
-                  <td>दाभे मोहन ते महाबळेश्वर (SH७२)</td>
-                  <td>३५.२ कि.मी.</td>
-                  <td>१ तास २१ मिनिटे</td>
+                    <td>दाभे मोहन ते महाबळेश्वर (SH७२)</td>
+                    <td>३५.२ कि.मी.</td>
+                    <td>१ तास २१ मिनिटे</td>
                   </tr>
                   <tr>
-                  <td>दाभे मोहन ते प्रतापगड</td>
-                  <td>२५.२ कि.मी.</td>
-                  <td>१ तास २ मिनिटे</td>
+                    <td>दाभे मोहन ते प्रतापगड</td>
+                    <td>२५.२ कि.मी.</td>
+                    <td>१ तास २ मिनिटे</td>
                   </tr>
                   <tr>
-                  <td>ताळगे ते दाभे मोहन</td>
-                  <td>४५.७ कि.मी.</td>
-                  <td>१ तास ३७ मिनिटे</td>
+                    <td>ताळगे ते दाभे मोहन</td>
+                    <td>४५.७ कि.मी.</td>
+                    <td>१ तास ३७ मिनिटे</td>
                   </tr>
                   <tr>
-                  <td>मुंबई ते पुणे (NH ४८)</td>
-                  <td>१५०.९ कि.मी.</td>
-                  <td>४ तास २७ मिनिटे</td>
+                    <td>मुंबई ते पुणे (NH ४८)</td>
+                    <td>१५०.९ कि.मी.</td>
+                    <td>४ तास २७ मिनिटे</td>
                   </tr>
                 </tbody>
               </table>
@@ -233,7 +263,7 @@ export default function Home() {
           <h1 className="my-3 text-center">
             Welcome to Shree Kedarshwar Mahakali Dabhe Mohan Gramvikas Sanstha
           </h1>
-          <p className="welcome-text">
+          <p className="welcome-text text-justify">
             The optimism behind the establishment of the SKMDM Gramvikas is
             that... service to the Motherland! An organization united to bring
             joy to the lives of poor farmer brothers and sisters in the
@@ -241,7 +271,7 @@ export default function Home() {
             them through selfless work!
           </p>
 
-          <p>
+          <p className="text-justify">
             An organization that stands like a shield by creating sources of
             financial help and guidance with students so that poverty does not
             interfere with their education, so that they get their right
