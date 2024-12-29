@@ -5,7 +5,7 @@ import { useMyContext } from '../context/MyContext'
 import ComingSoon from "../components/ComingSoon";
 
 const page = () => {
-    const isMarathi = useMyContext();
+    // const isMarathi = useMyContext();
   
     const pdfFiles = [
       { name: 'Shri Kedareshwar Mahakali Gramvikas Sanstha Form-1', url: '/pdfs/skmgsf-1.pdf' },
