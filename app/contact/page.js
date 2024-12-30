@@ -2,6 +2,9 @@
 import React from "react";
 import "./style.css";
 import { useMyContext } from "../context/MyContext";
+import { MdEmail } from "react-icons/md";
+import { FaPhoneSquareAlt } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 
 const Contact = () => {
   const isMarathi = useMyContext();
@@ -34,14 +37,15 @@ const Contact = () => {
                   <i className="fas fa-map-marker-alt"></i> रशिका राजेश चव्हाण, रु.न.24 दर्या सागर रहिवाशी संघ, महालक्ष्मी मंदिर कंपाऊंड, बुलाभाई देसाई रोड, हजी अली, महालक्ष्मी, मुंबई-400 026.
                 </p>
                 <p>
-                  <i className="fas fa-envelope"></i> shreekedareshwarmahakaligvs@gmail.com
+                <MdEmail /> shreekedareshwarmahakaligvs@gmail.com
                 </p>
                 <p>
-                  <i className="fas fa-phone"></i> +91 9833026017, +91
+                <FaPhoneSquareAlt /> +91 9833026017, +91
                   8652865255, +91 9870980082
                 </p>
                 <p>
-                  <span>Youtube: </span>{" "}
+                <FaYoutube />{" "}
+                <span>Youtube: </span>{" "}
                   <a href="https://dabhemohan.com/" target="_blank">
                     https://dabhemohan.com/
                   </a>
@@ -89,13 +93,13 @@ const Contact = () => {
                   B Desai Road samor Haji Ali Kambala Hill, Mumbai- 400026
                 </p>
                 <p>
-                  <i className="fas fa-envelope"></i> shreekedareshwarmahakaligvs@gmail.com
+                <MdEmail /> shreekedareshwarmahakaligvs@gmail.com
                 </p>
                 <p>
-                  <i className="fas fa-phone"></i> +91 9833026017, +91
+                <FaPhoneSquareAlt /> +91 9833026017, +91
                   8652865255, +91 9870980082
                 </p>
-                <p>
+                <p><FaYoutube />{" "}
                   <span>Youtube: </span>{" "}
                   <a href="https://dabhemohan.com/" target="_blank">
                     https://dabhemohan.com/

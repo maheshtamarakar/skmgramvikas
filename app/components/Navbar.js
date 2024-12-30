@@ -62,12 +62,12 @@ const Navbar = ({ sendData }) => {
               <Link className="nav-link active" aria-current="page" href="/contact"
                 >Contact</Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className="nav-link active" aria-current="page" href="/enquiry">Enquiry</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" href="/compliant">Compliant</Link>
-            </li>
+            </li> */}
           </ul>
           <div className="d-flex">
             <div className="form-check me-2">
@@ -143,18 +143,18 @@ const Navbar = ({ sendData }) => {
             </li>
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" href="/contribute"
-                >योगदानकता</Link>
+                >योगदानकर्ता</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" href="/contact"
                 >संपर्क</Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className="nav-link active" aria-current="page" href="/enquiry">चौकशी</Link>
-            </li>
-            <li className="nav-item">
+            </li> */}
+            {/* <li className="nav-item">
               <Link className="nav-link active" aria-current="page" href="/compliant">तक्रार</Link>
-            </li>
+            </li> */}
           </ul>
           <div className="d-flex">
             <div className="form-check me-2">

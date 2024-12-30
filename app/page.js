@@ -158,7 +158,7 @@ export default function Home() {
                 <thead className="table-head-1">
                   <tr>
                     <th>जातिचे वर्गीकरण</th>
-                    <th>कुंठब</th>
+                    <th>कुटूंब</th>
                     <th>स्त्रिया</th>
                     <th>पुरुष</th>
                   </tr>
@@ -282,7 +282,82 @@ export default function Home() {
             and life-threatening events due to lack and planning of their own
             medical facilities!
           </p>
+          <div className="container my-5">
+            <div className="table-responsive-container">
+              <h2 className="text-center">Information about the village</h2>
+              <table
+                style={{ border: "3px solid #79c0d5" }}
+                className="table table-bordered"
+              >
+                {/* <thead className="table-head-1">
+                  <tr>
+                    <th>येथून ते येथपर्यंत</th>
+                    <th>किलोमीटर</th>
+                    <th>वेळ</th>
+                  </tr>
+                </thead> */}
+                <tbody className="table-body-1">
+                  <tr>
+                    <td>Rajesh Balu Jadhav</td>
+                    <td>Sarpanch</td>
+                  </tr>
+                  <tr>
+                    <td>Suresh Devji Chavan</td>
+                    <td>Deputy Sarpanch</td>
+                  </tr>
+                  <tr>
+                    <td>Priyanka Jagdish Chavan</td>
+                    <td>Police Patil</td>
+                  </tr>
+                  <tr>
+                    <td>Janardhan Devji Chavan</td>
+                    <td>Peon</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table
+                style={{ border: "3px solid #79c0d5" }}
+                className="table table-bordered"
+              >
+                <thead className="table-head-1">
+                  <tr>
+                    <th>Race Categorization</th>
+                    <th>Family</th>
+                    <th>Female</th>
+                    <th>Male</th>
+                  </tr>
+                </thead>
+                <tbody className="table-body-1">
+                  <tr>
+                    <td>Caste</td>
+                    <td>3</td>
+                    <td>6</td>
+                    <td>8</td>
+                  </tr>
+                  <tr>
+                    <td>N.T</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td>General</td>
+                    <td>26</td>
+                    <td>33</td>
+                    <td>30</td>
+                  </tr>
+                  <tr>
+                    <td>Total</td>
+                    <td>30</td>
+                    <td>40</td>
+                    <td>39</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </section>
+        
       )}
       {/* contributions */}
       {/* <section
